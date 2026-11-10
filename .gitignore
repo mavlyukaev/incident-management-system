@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local configuration and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+.pgpass
+pgpass.conf
+
+# Local database exports
+*.dump
+*.backup
